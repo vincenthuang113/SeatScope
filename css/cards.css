@@ -395,7 +395,54 @@ body {
 
 @media screen and (max-width: 1024px) {
     .card1:hover .contentBx {
-        height: 67vh;
+        height: 60vh;
     }
 
+}
+
+
+@media screen and (max-width: 428px) {
+    .card1:hover .contentBx {
+        height: 85vh;
+    }
+    .card1 .contentBx .size h3,
+    .card1 .contentBx .color h3 {
+        font-size: 9px;
+    }
+    .card1 .contentBx h2{
+        font-size: 28px;
+        margin-bottom: -7px;
+    }
+
+    .card2:hover .contentBx {
+        height: 20vh;
+    }
+    .card2 .contentBx .size h3,
+    .card2 .contentBx .color h3 {
+        font-size: 9px;
+    }
+    .card2 .contentBx h2{
+        font-size: 28px;
+        margin-bottom: -7px;
+    }
+    .card2 .imgBx h2{
+        font-size: 15px;
+        /* margin-top: 5px;
+        margin-bottom: -5px; */
+    }
+
+
+
+    .card3:hover .contentBx {
+        height: 20vh;
+    }
+    .card3 .contentBx .size h3,
+    .card3 .contentBx .color h3 {
+        font-size: 9px;
+    }
+    .card3:hover .contentBx h2{
+        font-size: 28px;
+        margin-bottom: -7px;
+    }
+    
 }
