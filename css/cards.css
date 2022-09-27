@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800, 800i, 900&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #131313;
+} */
+
+#song-3{
+    border-radius: 60px;
+}
+
+ .card1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #232323;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+ .card1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #af69ff;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+    
+}
+
+ .card1:hover:before {
+    clip-path: circle(300px at 80% -20%);
+}
+
+ .card1:after {
+    content: "SEATSCOPE";
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 12em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.04);
+
+}
+
+ .card1 .imgBx {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+ .card1:hover .imgBx {
+    top: 0%;
+    transform: translateY(-85%);
+    /* bug  */
+}
+
+ .card1 .imgBx img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: auto;
+}
+
+ .card1 .contentBx {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 90;
+}
+
+ .card1:hover .contentBx {
+    height: 55vh;
+}
+
+ .card1 .contentBx h2 {
+    position: relative;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+    color: #fff;
+}
+
+ .card1 .contentBx .size,
+ .card1 .contentBx .color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 25px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+ .card1:hover .contentBx .size {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .5s;
+}
+
+ .card1:hover .contentBx .color {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .6s;
+}
+
+ .card1 .contentBx .size h3,
+ .card1 .contentBx .color h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+}
+/* career */
+ .card3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #ff00d9;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+ .card3:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #657db5;
+    clip-path: circle(10px at 50% 50%);
+    transition: 0.5s ease-in-out;
+    
+}
+
+ .card3:hover:before {
+    clip-path: circle(800px at 50% 50%);
+}
+
+ .card3:after {
+    content: "APPLY";
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 10em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.06);
+
+}
+
+ .card3 .imgBx {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+ .card3:hover .imgBx {
+    top: 0%;
+    transform: scale(1)
+    /* bug  */
+}
+
+ .card3 .imgBx svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: auto;
+}
+
+ .card3 .contentBx {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 90;
+}
+
+ .card3:hover .contentBx {
+    height: 20vh;
+}
+
+ .card3 .contentBx h2 {
+    position: relative;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+    color: #fff;
+}
+
+ .card3 .contentBx .size,
+ .card3 .contentBx .color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 25px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+ .card3:hover .contentBx .size {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .5s;
+}
+
+ .card3:hover .contentBx .color {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .6s;
+}
+
+ .card3 .contentBx .size h3,
+ .card3 .contentBx .color h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+
+
+/* card2 */
+
+.card2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+ .card2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #5100ff;
+    clip-path: circle(220px at 25% 100%);
+    transition: 0.5s ease-in-out;
+    
+}
+
+ .card2:hover:before {
+    clip-path: circle(300px at 50% 85%);
+}
+
+ .card2:after {
+    content: "TICKET";
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 10em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.06);
+
+}
+
+ .card2 .imgBx {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 60%;
+    height: auto;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card2 .imgBx h2{
+    text-align: center;
+}
+
+ .card2:hover .imgBx {
+    top: 0%;
+    transform: scale(1.2)
+    /* bug  */
+}
+
+ .card2 .imgBx img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 15%);
+    width: 100%;
+    height: auto;
+}
+
+ .card2 .contentBx {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 90;
+}
+
+ .card2:hover .contentBx {
+    height: 20vh;
+}
+
+ .card2 .contentBx h2 {
+    position: relative;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+    color: #fff;
+}
+
+ .card2 .contentBx .size,
+ .card2 .contentBx .color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 25px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+ .card2:hover .contentBx .size {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .5s;
+}
+
+ .card2:hover .contentBx .color {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .6s;
+}
+
+ .card2 .contentBx .size h3,
+ .card2 .contentBx .color h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .card1:hover .contentBx {
+        height: 67vh;
+    }
+
+}
