@@ -76,6 +76,7 @@ body {
 
   }
   .email {
+    animation: cssAnimation1 0s 2.7s forwards;
     background: rgb(222, 222, 222);
     border-radius: 20px;
     /* border: solid black 1px; */
@@ -198,6 +199,8 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-top: 70px;
+  margin-left: 5px;
+  animation: cssAnimation1 0s 2.7s forwards;
 }
 .words h1{
   text-align: center;
