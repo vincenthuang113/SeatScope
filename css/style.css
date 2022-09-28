@@ -9,13 +9,13 @@ body {
   #myVideo {
     min-width: 100%; 
     max-height: 50vw;
-    -moz-animation: cssAnimation 0s ease-in 2.3s forwards;
+    -moz-animation: cssAnimation 0s ease-in 2.7s forwards;
     /* Firefox */
-    -webkit-animation: cssAnimation 0s ease-in 2.3s forwards;
+    -webkit-animation: cssAnimation 0s ease-in 2.7s forwards;
     /* Safari and Chrome */
-    -o-animation: cssAnimation 0s ease-in 2.3s forwards;
+    -o-animation: cssAnimation 0s ease-in 2.7s forwards;
     /* Opera */
-    animation: cssAnimation 0s ease-in 2.3s forwards;
+    animation: cssAnimation 0s ease-in 2.7s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     /* border: red 2px solid; */
@@ -36,7 +36,7 @@ body {
   }
   .logo{
     position: relative;
-    animation: cssAnimation1 0s 2.3s forwards;
+    animation: cssAnimation1 0s 2.7s forwards;
     visibility: hidden;
     align-self: center;
     /* border: green 2px solid; */
@@ -195,9 +195,9 @@ body {
 
 .words{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .words h1{
   text-align: center;
@@ -205,7 +205,7 @@ body {
   top: 50%;
   left: 50%; */
   /* transform: translate(-50%, -50%); */
-  font-size:50px;
+  font-size:40px;
 	letter-spacing:0.1em;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 3px;
