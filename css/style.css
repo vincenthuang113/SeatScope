@@ -205,10 +205,10 @@ body {
   @media screen and (max-width: 428px) {
     #logo{
       width: 100%;
-      margin-top: 50px;
+      margin-top: 300px;
     }
     #myvideo{
       width: 100%;
-      margin-top: 50px;
+      margin-top: 300px;
     }
   }
