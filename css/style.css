@@ -71,7 +71,7 @@ body {
     justify-content: center;
     /* width: 5000px; */
     margin-top: 2px;
-    animation: cssAnimation1 0s 2.3s forwards;
+    animation: cssAnimation1 0s 2.7s forwards;
     visibility: hidden;
 
   }
@@ -199,10 +199,11 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-top: 70px;
-  margin-left: 5px;
-  animation: cssAnimation1 0s 2.7s forwards;
+  margin-left: 7px;
+  
 }
 .words h1{
+  animation: cssAnimation1 0s 2.7s forwards;
   text-align: center;
   /* position: absolute;
   top: 50%;
