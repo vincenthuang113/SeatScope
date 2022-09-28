@@ -71,11 +71,13 @@ body {
     justify-content: center;
     /* width: 5000px; */
     margin-top: 2px;
+    visibility: hidden;
     animation: cssAnimation1 0s 2.9s forwards;
     visibility: hidden;
 
   }
   .email {
+    visibility: hidden;
     animation: cssAnimation1 0s 2.9s forwards;
     background: rgb(222, 222, 222);
     border-radius: 20px;
@@ -199,10 +201,11 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-top: 70px;
-  margin-left: 10px;
+  margin-left: 12px;
   
 }
 .words h1{
+  visibility: hidden;
   animation: cssAnimation1 0s 2.9s forwards;
   text-align: center;
   /* position: absolute;
