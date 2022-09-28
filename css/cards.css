@@ -402,8 +402,9 @@ body {
 
 
 @media screen and (max-width: 428px) {
+
     .card1:hover .contentBx {
-        height: 85vh;
+        height: 60vh;
     }
     .card1 .contentBx .size h3,
     .card1 .contentBx .color h3 {
