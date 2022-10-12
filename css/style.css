@@ -215,14 +215,17 @@ body {
   font-size:40px;
 	letter-spacing:0.1em;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #BD58B8;
+  /* -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #BD58B8; */
   text-shadow: 
 						4px 4px #405380,
 						8px 8px #7CC0EA;
 }
 .words h1 span{
   -webkit-text-stroke-color: #22d1ba;
+  text-shadow: 
+						4px 4px #BD58B8,
+						6px 6px #405380;
 }
 
   @media screen and (max-width: 1024px) {
